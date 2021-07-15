@@ -1,4 +1,4 @@
-//  list of all questions, choices, and answers in array//
+// Created objects named questions that has property values for title, choices, and answers placed in an array
 var questions = [
     {
         title: "Commonly used data types DO NOT include:",

@@ -13,19 +13,18 @@ This assignment we utilized Web APIs in order to build a timed coding quiz with 
 * Comments made for organization and efficiency
 
 #### Link
-[Link to Deployed Website] (https://gisosa531.github.io/Code-Quiz-Web-API-/)
+[Link to Deployed Website] (https://gisosa531.github.io/Coding-Quiz/)
 
-[link to GitHub Repository] (https://github.com/gisosa531/Code-Quiz-Web-API-)
+[link to GitHub Repository] (https://github.com/gisosa531/Coding-Quiz)
 
 #### References
-*   [https://getbootstrap.com/docs/4.0/layout/grid/](https://getbootstrap.com/docs/4.0/layout/grid/)
 *   [https://www.w3schools.com/js/](https://www.w3schools.com/js/)
 *   [https://javascript.info/](https://javascript.info/)
 
 ### Images
-<img src=./assets/images/startQuizPage.png alt="Starting Page of Quiz">
-<img src=./assets/images/questionExample.png alt="Example of a question">
-<img src=./assets/images/AddingInitial.png alt="Adding Initial Example">
-<img src=./assets/images/Scoreboard.png alt="Page for Highscores">
+<img src=./assets/images/ alt="Starting Page of Quiz">
+<img src=./assets/images/ alt="Example of a question">
+<img src=./assets/images/ alt="Adding Initial Example">
+<img src=./assets/images/ alt="Page for Highscores">
 
 
