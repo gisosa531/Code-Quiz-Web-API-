@@ -16,30 +16,34 @@
     <!--Timer being set-->
     <div>Time: <span id="time">0</span></div>
     <!--Start Title Screen for when quiz will begin-->
-    <div>
+    <div class = "container">
+    <div id =startScreen class="begin">
         <h1>Coding Quiz </h1>
     </di>
     <p>
         Within the time limit, attempt to answer the following code-related questions. Keep in mind that wrong responses will deduct 10 seconds from your score/timing!
     </p>
-    <button>Start Quiz</button>
+    <button id= "begin">Start Quiz</button>
     </div>
 
     <!--Container for questions to be displayed-->
-    <div id="questions">
+    <div id="questions" class="hide">
         <h2 id=questionTitle></h2>
         <div id="answers"></div>
     </div>
 
     <!--End Title Screen for when time is out or finished answering-->
-    <div id="endScreen">
+    <div id="endPanel" class="hide">
         <h2>Finished!</h2>
-        <p>Your score is: <span> </span>.</p>
+        <p>Your score is: <span> </span id=finalScore>.</p>
         <p>
             Enter initials: <input id="initials" max="3">
             <button>Submit</button>
         </p>
     </div>
+
+    <div id="answerResponse" class="hide"></div>
+</div>
 
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/script.js"></script>
