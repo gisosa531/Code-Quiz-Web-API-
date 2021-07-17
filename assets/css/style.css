@@ -1,3 +1,17 @@
+body {
+    font-size:110%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: palegoldenrod;
+}
+
+.container {
+    margin: 200px;
+}
+
+.feedback {
+    border-top: 3px solid navy
+}
 .hide {
     display: none;
   }
+

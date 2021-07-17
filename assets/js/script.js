@@ -1,12 +1,14 @@
 // Variables to reference DOM elements and keep track of quiz state
 var queryEl = document.getElementById("questions");
 var timerCheck;
-var timerShow = document.getElementById("time")
+var timerShow = document.getElementById("time");
 var questionArray = 0;
 var time = questions.length * 10;
-var quizChoices = document.getElementById("answers")
-var answerResponse = document.getElementById("answerResponse")
-var startBtn = document.getElementById("begin")
+var quizChoices = document.getElementById("answers");
+var answerResponse = document.getElementById("answerResponse");
+var startBtn = document.getElementById("begin");
+var insertInitials = document.getElementById("initials");
+var submitBtn = document.getElementById("submit");
 
 function startNow() {
     // Hides start screen by adding hide attribute
@@ -50,13 +52,12 @@ function questionResponse() {
         }
     
         timerShow.textContent = time;
-    
+
         incorrectSfx.play();
-    
         answerResponse.textContent = "Wrong!";
       } else {
+          
         correctSfx.play();
-    
         answerResponse.textContent = "Correct!";
       }
     
@@ -90,18 +91,32 @@ function questionResponse() {
         time--;
         timerShow.textContent = time;
 
-
-
+        if(time <=0) {
+            endQuiz();
+        }
       }
 
 
 
 function saveScore () {
+    var initials = insertInitials.value.trim();
+    
+    if (initials !== "") {
+        var getScores = 
+        JSON.parse(window.localStorage.getItem("getScores")) || [];
+        
+        var editScore = {
+            score: time,
+            initials: initials
+        };
 
+        getScores.push(editScore);
+        window.localStorage.setItem("getScores", JSON.stringify(getScores));
+        window.location.href = "./scores.html";
+        }
+    }
 
-
-}
-
+submitBtn.onclick = saveScore;
 startBtn.onclick = startNow;
 
 var correctSfx = new Audio("./assets/sfx/correct.wav");
