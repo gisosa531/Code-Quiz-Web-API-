@@ -1,16 +1,66 @@
+
 body {
-    font-size:110%;
+    font-size:150%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: palegoldenrod;
+    background-color: lightblue;
 }
 
+#questions{
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+#endPanel {
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+button {
+    display: inline-block;
+    margin: 6px;
+    cursor: pointer;
+    font-size: 100%;
+    background-color: rgb(39, 97, 49);
+    color: whitesmoke;
+}
+
+button:hover{
+    background-color: teal;
+}
+
+a {
+    color: seagreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(170, 22, 170);
+}
+
+ol {
+    padding-left: 20px;
+  }
 .container {
     margin: 200px;
 }
 
+h1 {
+    color: midnightblue;
+}
+
+.begin {
+    text-align: center;
+    border: 12px solid green;
+    padding: 50px;
+    margin: 20px;
+
+}
 .feedback {
     border-top: 3px solid navy
 }
+
+
 .hide {
     display: none;
   }
