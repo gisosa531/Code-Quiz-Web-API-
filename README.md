@@ -1,4 +1,4 @@
-# Code-Quiz-Web-API-
+# Code-Quiz-Web-API
 Built a timed multiple-choice Coding-related quiz by utilizing Web APIs.
 
 ## Description
@@ -20,11 +20,10 @@ This assignment we utilized Web APIs in order to build a timed coding quiz with 
 #### References
 *   [https://www.w3schools.com/js/](https://www.w3schools.com/js/)
 *   [https://javascript.info/](https://javascript.info/)
+* [https://www.w3schools.com/css/css_boxmodel.asp] (https://www.w3schools.com/css/css_boxmodel.asp)
 
 ### Images
-<img src=./assets/images/ alt="Starting Page of Quiz">
-<img src=./assets/images/ alt="Example of a question">
-<img src=./assets/images/ alt="Adding Initial Example">
-<img src=./assets/images/ alt="Page for Highscores">
+<img src=./assets/images/codingQuizDemo.gif alt="Demonstration of Quiz">
+<img src=./assets/images/codingQuizTitle alt="Start Page of Quiz">
 
 
